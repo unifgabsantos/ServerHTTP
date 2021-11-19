@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+}
+.delete{
+    color:red;
+}
+.textarea{
+    background-color: rgb(220,220,220);
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <script src="perfil.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <%=Name%>
+    <br>
+    <%=Chat%>
+    <br>
+    <form action="/Message" method="post">
+        <%=User%><br>
+        <a href="/Change.html">Change Password</a><br><br><br>
+        <input placeholder="Text" name="MSG" maxlength="120"><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
